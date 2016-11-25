@@ -8,7 +8,7 @@ def random_ua():
 
 def visit_ml():
 	headers = {'User-Agent': random_ua()}
-	get('http://produto.mercadolivre.com.br/MLB-813419827-site-pronto-em-3-dias-_JM', headers=headers)
+	get('http://produto.mercadolivre.com.br/******', headers=headers)
 
 def main():
 	x=1
